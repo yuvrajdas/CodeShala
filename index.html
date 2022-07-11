@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" type="text/css" href="css/all.min.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
+    <!-- Student Testimonial Owl Slider CSS -->
+    <link rel="stylesheet" type="text/css" href="css/owl.min.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.theme.min.css">
+    <link rel="stylesheet" type="text/css" href="css/testyslider.css">
+
+    <!-- Custom Style CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title>CodeShala</title>
+</head>
+
+<body>
+    <!-- Start Nagigation -->
+    <nav class="navbar navbar-expand-sm navbar-dark pl-5 fixed-top">
+        <a href="index.php" class="navbar-brand">CodeShala</a>
+        <span class="navbar-text">Learn and Implement</span>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="myMenu">
+            <ul class="navbar-nav pl-5 custom-nav">
+                <li class="nav-item custom-nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item custom-nav-item"><a href="#popupar-courses" class="nav-link">Courses</a></li>
+
+
+
+                <li class="nav-item custom-nav-item"><a href="#login" class="nav-link" data-toggle="modal"
+                        data-target="#stuLoginModalCenter">Login</a></li>
+                <li class="nav-item custom-nav-item"><a href="#signup" class="nav-link" data-toggle="modal"
+                        data-target="#stuRegModalCenter">Signup</a></li>
+
+                <li class="nav-item custom-nav-item"><a href="#Feedback" class="nav-link">Feedback</a></li>
+                <li class="nav-item custom-nav-item"><a href="#Contact" class="nav-link">Contact</a></li>
+                <li class="nav-item custom-nav-item"><a href="#about-section" class="nav-link">About Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav> <!-- End Navigation -->
+
+    <!-- Start Video Background-->
+    <div class="container-fluid remove-vid-marg">
+        <div class="vid-parent">
+            <video playsinline autoplay muted loop>
+                <source src="video/vidbackground.mp4" />
+            </video>
+            <div class="vid-overlay"></div>
+        </div>
+        <div class="vid-content">
+            <h1 class="my-content">Welcome to CodeShala</h1>
+            <small class="my-content">Learn and Implement</small><br />
+
+            <a class="btn btn-danger mt-3" href="#popupar-courses">Explore our
+                Courses</a>
+
+        </div>
+    </div> <!-- End Video Background -->
+
+    <div class="container-fluid bg-danger txt-banner">
+        <!-- Start Text Banner -->
+        <div class="row bottom-banner">
+            <div class="col-sm">
+                <h5> <i class="fas fa-book-open mr-3"></i> 100+ Online Courses</h5>
+            </div>
+            <div class="col-sm">
+                <h5><i class="fas fa-users mr-3"></i> Expert Instructors</h5>
+            </div>
+            <div class="col-sm">
+                <h5><i class="fas fa-keyboard mr-3"></i> Lifetime Access</h5>
+            </div>
+            <div class="col-sm">
+                <h5><i class="fas fa-rupee-sign mr-3"></i> Money Back Guarantee*</h5>
+            </div>
+        </div>
+    </div> <!-- End Text Banner -->
+
+    <div class="container mt-5" id="popupar-courses">
+        <!-- Start Most Popular Course -->
+        <h1 class="text-center">Popular Course</h1>
+        <div class="row">
+            <div class="card-deck mt-4 col-sm-4">
+                <!-- Start Most Popular Course 1st Card Deck -->
+
+                <a href="#" class="btn" style="text-align: left; padding:0px; margin:0px;">
+                    <div class="card">
+                        <img src="image/computer-nextwork.jpg" class="card-img-top" alt="Computer Network" />
+                        <div class="card-body">
+                            <h5 class="card-title">Computer Network</h5>
+                            <p class="card-text">This course provides an introduction to computer networks, with a
+                                special focus on the Internet architecture and
+                                protocols.</p>
+                        </div>
+                        <div class="card-footer">
+                            <p class="card-text d-inline">Price: <small><del>10,000</del></small> <span
+                                    class="font-weight-bolder">Rs. 7000<span></p> <a
+                                class="btn btn-primary text-white font-weight-bolder float-right" href="#">Enroll</a>
+                        </div>
+                    </div>
+                </a>
+            </div> <!-- End Most Popular Course 1st Card Deck -->
+            <div class="card-deck mt-4 col-sm-4">
+                <!-- Start Most Popular Course 2nd Card Deck -->
+
+                <a href="#" class="btn" style="text-align: left; padding:0px;">
+                    <div class="card">
+                        <img src="image/funny.gif" class="card-img-top" alt="Web Development" />
+                        <div class="card-body">
+                            <h5 class="card-title">Web Development</h5>
+                            <p class="card-text">This course is designed to start you on a path toward future studies in
+                                web development and design, no matter how little
+                                experience </p>
+                        </div>
+                        <div class="card-footer">
+                            <p class="card-text d-inline">Price: <small><del>13,000</del></small> <span
+                                    class="font-weight-bolder"> Rs. 9,000<span></p> <a
+                                class="btn btn-primary text-white font-weight-bolder float-right" href="#">Enroll</a>
+                        </div>
+                    </div>
+                </a>
+
+            </div> <!-- End Most Popular Course 2nd Card Deck -->
+            <div class="card-deck mt-4 col-sm-4">
+                <!-- Start Most Popular Course 3rd Card Deck -->
+
+                <a href="#" class="btn" style="text-align: left; padding:0px;">
+                    <div class="card">
+                        <img src="image/data-science.png" class="card-img-top" alt="Data Science" />
+                        <div class="card-body">
+                            <h5 class="card-title">Data Science</h5>
+                            <p class="card-text">Data science can be defined as a blend of mathematics, business acumen,
+                                tools, algorithms and machine learning
+                                techniques, all of which help </p>
+                        </div>
+                        <div class="card-footer">
+                            <p class="card-text d-inline">Price: <small><del>12,000</del></small> <span
+                                    class="font-weight-bolder">Rs. 10,000<span></p> <a
+                                class="btn btn-primary text-white font-weight-bolder float-right" href="#">Enroll</a>
+                        </div>
+                    </div>
+                </a>
+
+            </div> <!-- End Most Popular Course 3rd Card Deck -->
+        </div>
+        <div class="row">
+            <div class="card-deck mt-4 col-sm-4">
+                <!-- Start Most Popular Course 1st Card Deck -->
+
+                <a href="#" class="btn" style="text-align: left; padding:0px; margin:0px;">
+                    <div class="card">
+                        <img src="image/data-structure.png" class="card-img-top" alt="Data Structure" />
+                        <div class="card-body">
+                            <h5 class="card-title">Data Structure & Algorithm</h5>
+                            <p class="card-text">In this online course, we consider the common data structures that are
+                                used in various computational problems </p>
+                        </div>
+                        <div class="card-footer">
+                            <p class="card-text d-inline">Price: <small><del>20,000</del></small> <span
+                                    class="font-weight-bolder">18,000<span></p> <a
+                                class="btn btn-primary text-white font-weight-bolder float-right" href="#">Enroll</a>
+                        </div>
+                    </div>
+                </a>
+            </div> <!-- End Most Popular Course 1st Card Deck -->
+            <div class="card-deck mt-4 col-sm-4">
+                <!-- Start Most Popular Course 2nd Card Deck -->
+
+                <a href="#" class="btn" style="text-align: left; padding:0px;">
+                    <div class="card">
+                        <img src="image/ethical-hacking.png" class="card-img-top" alt="Ethical Hacking" />
+                        <div class="card-body">
+                            <h5 class="card-title">Ethical Hacking</h5>
+                            <p class="card-text">Ethical Hacking Course Syllabus: Subjects, Curriculum, Topics, Books,
+                                Skills 2022 ; Cyber Ethics-Hacking Introduction,
+                                Information Gathering.</p>
+                        </div>
+                        <div class="card-footer">
+                            <p class="card-text d-inline">Price: <small><del>20,000</del></small> <span
+                                    class="font-weight-bolder">Rs. 17,000<span></p> <a
+                                class="btn btn-primary text-white font-weight-bolder float-right" href="#">Enroll</a>
+                        </div>
+                    </div>
+                </a>
+
+            </div> <!-- End Most Popular Course 2nd Card Deck -->
+            <div class="card-deck mt-4 col-sm-4">
+                <!-- Start Most Popular Course 3rd Card Deck -->
+
+                <a href="#" class="btn" style="text-align: left; padding:0px;">
+                    <div class="card">
+                        <img src="image/database.png" class="card-img-top" alt="Database" />
+                        <div class="card-body">
+                            <h5 class="card-title">DBMS Full Course</h5>
+                            <p class="card-text"> It focuses on generating professionals in Database Systems to
+                                investigate new demands and the utilization of new
+                                innovations in the management</p>
+                        </div>
+                        <div class="card-footer">
+                            <p class="card-text d-inline">Price: <small><del>17,000</del></small> <span
+                                    class="font-weight-bolder">Rs. 14,000<span></p> <a
+                                class="btn btn-primary text-white font-weight-bolder float-right" href="#">Enroll</a>
+                        </div>
+                    </div>
+                </a>
+
+            </div> <!-- End Most Popular Course 3rd Card Deck -->
+        </div>
+        <div class="row">
+            <div class="card-deck mt-4 col-sm-4">
+                <!-- Start Most Popular Course 1st Card Deck -->
+
+                <a href="#" class="btn" style="text-align: left; padding:0px; margin:0px;">
+                    <div class="card">
+                        <img src="image/android-dev.png" class="card-img-top" alt="Android Development" />
+                        <div class="card-body">
+                            <h5 class="card-title">Android Development</h5>
+                            <p class="card-text">Learn essential Android programming concepts and build a variety of
+                                apps using Java. </p>
+                        </div>
+                        <div class="card-footer">
+                            <p class="card-text d-inline">Price: <small><del>18,000</del></small> <span
+                                    class="font-weight-bolder">Rs. 15,000<span></p> <a
+                                class="btn btn-primary text-white font-weight-bolder float-right" href="#">Enroll</a>
+                        </div>
+                    </div>
+                </a>
+            </div> <!-- End Most Popular Course 1st Card Deck -->
+            <div class="card-deck mt-4 col-sm-4">
+                <!-- Start Most Popular Course 2nd Card Deck -->
+
+                <a href="#" class="btn" style="text-align: left; padding:0px;">
+                    <div class="card">
+                        <img src="image/java-training.png" class="card-img-top" alt="Java" />
+                        <div class="card-body">
+                            <h5 class="card-title">Java</h5>
+                            <p class="card-text">Learn more than 30 Full Stack tools and technologies and practice with
+                                multiple project. Complete Full Stack Java </p>
+                        </div>
+                        <div class="card-footer">
+                            <p class="card-text d-inline">Price: <small><del>15,000</del></small> <span
+                                    class="font-weight-bolder">Rs. 12,000<span></p> <a
+                                class="btn btn-primary text-white font-weight-bolder float-right" href="#">Enroll</a>
+                        </div>
+                    </div>
+                </a>
+
+            </div> <!-- End Most Popular Course 2nd Card Deck -->
+            <div class="card-deck mt-4 col-sm-4">
+                <!-- Start Most Popular Course 3rd Card Deck -->
+
+                <a href="#" class="btn" style="text-align: left; padding:0px;">
+                    <div class="card">
+                        <img src="image/javascript-course.png" class="card-img-top" alt="JavaScript" />
+                        <div class="card-body">
+                            <h5 class="card-title">JavaScript</h5>
+                            <p class="card-text"> The JavaScript Specialist course focuses on the fundamental concepts
+                                of the JavaScript language.</p>
+                        </div>
+                        <div class="card-footer">
+                            <p class="card-text d-inline">Price: <small><del>13,000</del></small> <span
+                                    class="font-weight-bolder">Rs. 12,000<span></p> <a
+                                class="btn btn-primary text-white font-weight-bolder float-right" href="#">Enroll</a>
+                        </div>
+                    </div>
+                </a>
+
+            </div> <!-- End Most Popular Course 3rd Card Deck -->
+        </div>
+
+    </div> <!-- End Most Popular Course -->
+    <div class="text-center m-2">
+        <a class="btn btn-danger btn-sm" href="#popupar-courses">View All Course</a>
+    </div>
+
+    <div class="container mt-4" id="Contact">
+        <!--Start Contact Us Container-->
+        <h2 class="text-center mb-4">Contact US</h2> <!-- Contact Us Heading -->
+        <div class="row">
+            <!--Start Contact Us Row-->
+            <div class="col-md-8">
+                <!--Start Contact Us 1st Column-->
+                <form action="index.html">
+                    <input type="text" class="form-control" id="contactName" name="name" placeholder="Name"><br>
+                    <input type="text" class="form-control" name="subject" placeholder="Subject"><br>
+                    <input type="email" class="form-control" name="email" placeholder="E-mail"><br>
+                    <textarea class="form-control" name="message" placeholder="How can we help you?"
+                        style="height:150px;"></textarea><br>
+                    <button class="btn btn-primary" value="Send" name="submit"
+                        onclick="alert('Thanks'+ document.getElementById('contactName').value +' for contacting us we connect with you soon')"
+                        onsubmit="(e){e.preventDefault()}">
+                        Submit </button><br><br>
+                </form>
+            </div> <!-- End Contact Us 1st Column-->
+
+            <div class="col-md-4 stripe text-white text-center">
+                <!-- Start Contact Us 2nd Column-->
+                <h4>CodeShala</h4>
+                <p>CodeShala,
+                    Near Govt Middle School, Raigarh,
+                    Chhattisgarh - 496001<br />
+                    Phone: +91-9009645679 <br />
+                    www.CodeShala.com </p>
+            </div> <!-- End Contact Us 2nd Column-->
+        </div> <!-- End Contact Us Row-->
+    </div> <!-- End Contact Us Container-->
+    <!-- End Contact Us -->
+    <!-- Start Students Testimonial -->
+    <div class="container-fluid mt-5" style="background-color: #4B7289" id="Feedback">
+        <h1 class="text-center testyheading p-4"> Student's Feedback </h1>
+        <div class="row">
+            <div class="col-md-12">
+                <div id="testimonial-slider" class="owl-carousel">
+
+                    <div class="testimonial">
+                        <p class="description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quaerat expedita repellat
+                            quidem eaque similique facilis dolorum.
+                        </p>
+                        <div class="pic">
+                            <img src="image/ayush.jfif" alt="Ayush" />
+                        </div>
+                        <div class="testimonial-prof">
+                            <h4>
+                                Aayush Verma
+                            </h4>
+                            <small>
+                                Software Developer
+                            </small>
+                        </div>
+                    </div>
+
+                    <div class="testimonial">
+                        <p class="description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quaerat expedita repellat
+                            quidem eaque similique facilis dolorum.
+                        </p>
+                        <div class="pic">
+                            <img src="image/yuvraj.jfif" alt="Yuvraj Das" />
+                        </div>
+                        <div class="testimonial-prof">
+                            <h4>
+                                Yuvraj Das
+                            </h4>
+                            <small>
+                                Software Developer
+                            </small>
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <p class="description">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto quam dolor blanditiis ut
+                            magni deleniti odio earum, facere, autem quasi minus omnis vel,
+                        </p>
+                        <div class="pic">
+                            <img src="image/shreya.jfif" alt="Shreya Bajpai" />
+                        </div>
+                        <div class="testimonial-prof">
+                            <h4>
+                                Shreya Bajpai
+                            </h4>
+                            <small>
+                                Software Developer
+                            </small>
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <p class="description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum fugiat nesciunt, magni et
+                            rem quod exercitationem quisquam.
+                        </p>
+                        <div class="pic">
+                            <img src="image/prasad.jfif" alt="Prasad Magi" />
+                        </div>
+                        <div class="testimonial-prof">
+                            <h4>
+                                Prasad Magi
+                            </h4>
+                            <small>
+                                Software Developer
+                            </small>
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <p class="description">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati necessitatibus,
+                            architecto nam suscipit natus enim nulla nostrum,
+                        </p>
+                        <div class="pic">
+                            <img src="image/sandesh.jfif" alt="Sandesh Titarmare" />
+                        </div>
+                        <div class="testimonial-prof">
+                            <h4>
+                                Sandesh Titarmare
+                            </h4>
+                            <small>
+                                Software Developer
+                            </small>
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <p class="description">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati necessitatibus,
+                            architecto nam suscipit natus enim nulla nostrum,
+                        </p>
+                        <div class="pic">
+                            <img src="image/shivani chouhan.jfif" alt="Shivani Chouhan" />
+                        </div>
+                        <div class="testimonial-prof">
+                            <h4>
+                                Shivani Chouhan
+                            </h4>
+                            <small>
+                                Software Developer
+                            </small>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- End Students Testimonial -->
+
+    <div class="container-fluid bg-danger">
+        <!-- Start Social Follow -->
+        <div class="row text-white text-center p-1">
+            <div class="col-sm">
+                <a class="text-white social-hover" href="#"><i class="fab fa-facebook-f"></i> Facebook</a>
+            </div>
+            <div class="col-sm">
+                <a class="text-white social-hover" href="#"><i class="fab fa-twitter"></i> Twitter</a>
+            </div>
+            <div class="col-sm">
+                <a class="text-white social-hover" href="#"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+            </div>
+            <div class="col-sm">
+                <a class="text-white social-hover" href="#"><i class="fab fa-instagram"></i> Instagram</a>
+            </div>
+        </div>
+    </div> <!-- End Social Follow -->
+
+    <!-- Start About Section -->
+    <div class="container-fluid p-4" style="background-color:#E9ECEF" id="about-section">
+        <div class="container" style="background-color:#E9ECEF">
+            <div class="row text-center">
+                <div class="col-sm">
+                    <h5>About Us</h5>
+                    <p>CodeShala provides universal access to the world’s best education, partnering with top
+                        universities
+                        and
+                        organizations to offer courses online.</p>
+                </div>
+                <div class="col-sm">
+                    <h5>Category</h5>
+                    <a class="text-dark" href="#">Web Development</a><br />
+                    <a class="text-dark" href="#">Ethical Hacking</a><br />
+                    <a class="text-dark" href="#">Android App Dev</a><br />
+                    <a class="text-dark" href="#">Data Science</a><br />
+                    <a class="text-dark" href="#">Java Training</a><br />
+                </div>
+                <div class="col-sm">
+                    <h5>Contact Us</h5>
+                    <p>CodeShala Pvt Ltd <br> Near Govt Middle School <br> Raigarh, Chhattisgarh <br> Ph. 9009645679
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div> <!-- End About Section -->
+
+    <!-- footer section  -->
+
+
+    <!-- Start Footer -->
+    <footer class="container-fluid bg-dark text-center p-2">
+        <small class="text-white">Copyright &copy; 2022 || Designed By <a
+                href="https://yuvrajdas.github.io/yuvrajdasportfolio.github.io/" target="_blank"
+                style="text-decoration: none;">Yuvraj
+                Das</a> || </small>
+
+    </footer> <!-- End Footer -->
+
+    <!-- Start Student Registration Modal -->
+    <div class="modal fade" id="stuRegModalCenter" tabindex="-1" role="dialog" aria-labelledby="stuRegModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="stuRegModalCenterTitle">Student Registration</h5>
+
+                </div>
+                <div class="modal-body">
+                    <form role="form" id="stuRegForm">
+                        <div class="form-group">
+                            <i class="fas fa-user"></i><label for="stuname"
+                                class="pl-2 font-weight-bold">Name</label><small id="statusMsg1"></small><input
+                                type="text" class="form-control" placeholder="Name" name="stuname" id="stuname">
+                        </div>
+                        <div class="form-group">
+                            <i class="fas fa-envelope"></i><label for="stuemail"
+                                class="pl-2 font-weight-bold">Email</label><small id="statusMsg2"></small><input
+                                type="email" class="form-control" placeholder="Email" name="stuemail">
+                            <small class="form-text">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <i class="fas fa-key"></i><label for="stupass" class="pl-2 font-weight-bold">New
+                                Password</label><small id="statusMsg3"></small><input type="password"
+                                class="form-control" placeholder="Password" name="stupass" id="stupass">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <span id="successMsg"></span>
+                    <button type="button" class="btn btn-primary" id="signup" onclick="addStu()">Sign Up</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal"
+                        onclick="clearAllStuReg()">Close</button>
+                </div>
+            </div>
+        </div>
+    </div> <!-- End Student Registration Modal -->
+
+
+    <!-- Start Student Login Modal -->
+    <div class="modal fade" id="stuLoginModalCenter" tabindex="-1" role="dialog"
+        aria-labelledby="stuLoginModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="stuLoginModalCenterTitle">Student Login</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"
+                        onClick="clearStuLoginWithStatus()">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form role="form" id="stuLoginForm">
+                        <div class="form-group">
+                            <i class="fas fa-envelope"></i><label for="stuLogEmail"
+                                class="pl-2 font-weight-bold">Email</label><small id="statusLogMsg1"></small><input
+                                type="email" class="form-control" placeholder="Email" name="stuLogEmail"
+                                id="stuLogEmail">
+                        </div>
+                        <div class="form-group">
+                            <i class="fas fa-key"></i><label for="stuLogPass"
+                                class="pl-2 font-weight-bold">Password</label><input type="password"
+                                class="form-control" placeholder="Password" name="stuLogPass" id="stuLogPass">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <small id="statusLogMsg"></small>
+                    <button type="button" class="btn btn-primary" id="stuLoginBtn"
+                        onclick="checkStuLogin()">Login</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal"
+                        onClick="clearStuLoginWithStatus()">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div> <!-- End Student Login Modal -->
+
+
+    <!-- Jquery and Boostrap JavaScript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Font Awesome JS -->
+    <script type="text/javascript" src="js/all.min.js"></script>
+
+    <!-- Student Testimonial Owl Slider JS  -->
+    <script type="text/javascript" src="js/owl.min.js"></script>
+    <script type="text/javascript" src="js/testyslider.js"></script>
+
+
+</body>
+
+</html>
